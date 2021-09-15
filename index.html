@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/font.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <div class="container ">
+                <!-- <a class="navbar text-white me-5 title" href="#">English <img class="ms-2" src="./img/logo.png" alt=""></a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="navbar text-white me-5 title" href="#">English <img class="ms-2"
+                                    src="./img/logo.png" alt=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-5 title" aria-current="page" href="#"><img class="me-2"
+                                    src="./img/call.png" alt=""> (907) 555-0101</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white me-5 title" href="#"><img class="me-2" src="./img/contact.png"
+                                    alt=""> Sing in</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white title" href="#"><img class="me-2" src="./img/shopping.png"
+                                    alt=""> Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container d-flex flex-wrap justify-content-evenly ">
+            <div>
+                <img src="./img/logoshop.svg" alt="" class="mt-3">
+            </div>
+            <div class="d-flex mx-auto flex-wrap header__input">
+                <div class="input d-flex">
+                    <input type="text" class="form-control border-dark input mt-lg-4 mt-3 footer__input"
+                        placeholder="What are you looking for?" aria-label="What are you looking for?">
+                </div>
+                <button type="button" class="btn btn-secondary button__header mt-lg-4 mt-5"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-search" viewbox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg> SEARCH OUR STORE</button>
+            </div>
+        </div>
+
+        <ul class="container d-flex mt-5 justify-content-center flex-wrap">
+            <li>
+                <div class="bg-white d-flex">
+
+                    <button class=" border-0" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                        Call Phones & Tablets
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Cell Phones</a></li>
+                        <div class="line bg-dark"></div>
+                        <li><a class="dropdown-item fw-light" href="#">Xiaomi </a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Apple</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Samsung</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Huawei</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">BQ</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Inoi</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Vivo</a></li>
+                    </ul>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                        <li><a class="dropdown-item" href="#">Tablets</a></li>
+                        <div class="line bg-dark"></div>
+                        <li><a class="dropdown-item fw-light" href="#">Xiaomi </a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Apple</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Samsung</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Huawei</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">BQ</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Inoi</a></li>
+                        <li><a class="dropdown-item fw-light" href="#">Vivo</a></li>
+                    </ul>
+
+                </div>
+            </li>
+            <li><a href="#" class="header__text text-dark mx-4">Computers&Laptop</a></li>
+            <li><a href="#" class="header__text text-dark">Tv&Video</a></li>
+            <li><a href="#" class="header__text text-dark mx-4">Asseccories</a></li>
+            <li><a href="#" class="header__text text-dark me-4">Home appliance</a></li>
+            <li><a href="#" class="header__text text-dark">Video Games&Consoles</a></li>
+        </ul>
+
+        <div id="carousel" class="carousel slide container" data-bs-ride="carousel">
+            <div class="carousel-inner mt-5">
+                <div class="carousel-item active">
+                    <div class="me-5">
+                        <img src="./img/img1.png" class="img-fluid  position-relative img__slider slider__img-3"
+                            alt="...">
+                        <div
+                            class="d-flex flex-column justify-content-evenly align-items-center position-absolute slider">
+                            <h1 class="slider__title text-dark">Color your days with small joy</h1>
+                            <button type="button" class="btn btn-secondary slider__button text-white mt-5">SHOP
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="me-5">
+                        <img src="./img/img2.png" class="img-fluid  position-relative img__slider slider__img-3"
+                            alt="...">
+                        <div
+                            class="d-flex flex-column justify-content-evenly align-items-center position-absolute slider">
+                            <h1 class="slider__title text-dark">Color your days with small joy</h1>
+                            <button type="button" class="btn btn-secondary slider__button text-white mt-5">SHOP
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="me-5">
+                        <div class=" slider__img-3">
+                            <img src="./img/img3.png" class="img-fluid  position-relative img__slider" alt="...">
+                        </div>
+                        <div
+                            class="d-flex flex-column justify-content-evenly align-items-center position-absolute slider">
+                            <h1 class="slider__title text-dark">Color your days with small joy</h1>
+                            <button type="button" class="btn btn-secondary slider__button text-white">SHOP
+                                NOW</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-indicators mt-5 d-flex">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container technology__item flex-wrap mt-5">
+            <img class="img-fluid" src="./img/img4.png" alt="">
+            <div class="ms-3">
+                <img class="img-fluid" src="./img/airpods.png" alt="">
+
+                <div class="mt-3">
+                    <img class="me-3" src="./img/power_bank.png" alt="">
+                    <img class="mt-lg-0 mt-3" src="./img/Rp.png" alt="">
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-secondary slider__button text-white mx-auto d-flex mt-4">LEARN
+            MORE</button>
+
+        <h1 class="phone__title text-dark container mt-5">Cell Phone</h1>
+        <div class="container d-flex phone__img mt-lg-4 mt-3 flex-wrap">
+            <img class="ggg" src="./img/phone1.png" alt="">
+            <img class="phone__img-2" src="./img/phone2.png" alt="">
+            <img class="phone__img-2" src="./img/phone3.png" alt="">
+            <img class="phone__img-2" src="./img/phone4.png" alt="">
+        </div>
+
+        <button type="button" class="btn btn-secondary slider__button text-white mx-auto d-flex mt-4">LEARN
+            MORE</button>
+        <h1 class="phone__title text-dark container mt-5">Computers & Laptop</h1>
+        <div class="container mt-lg-4 mt-3 d-flex flex-wrap justify-content-evenly">
+            <img src="./img/laptop1.png" alt="">
+            <img src="./img/laptop2.png" alt="">
+            <img src="./img/laptop3.png" alt="">
+            <img src="./img/laptop4.png" alt="">
+        </div>
+        <button type="button" class="btn btn-secondary slider__button text-white mx-auto d-flex mt-4">LEARN
+            MORE</button>
+
+        <section class="container d-flex justify-content-evenly flex-wrap play__div">
+            <div class="left__2 flex-wrap">
+                <img class="img-fluid" src="./img/ps5.png" alt="">
+                <h1 class="mt-3 play__title">PlayStation 5 Console</h1>
+                <button type="button" class="btn btn-secondary slider__button text-white d-flex left__button">WATCH
+                    NOW</button>
+            </div>
+            <div class="right__2">
+                <img class="img-fluid ps5__img" src="./img/playstation.png" alt="">
+            </div>
+        </section>
+        <h1 class="phone__title text-dark container mt-lg-5 flex-wrap d-block">Top seller</h1>
+        <div class="container d-flex justify-content-evenly flex-wrap mt-4">
+            <img src="./img/watc1.png" alt="">
+            <img src="./img/watc2.png" alt="">
+            <img src="./img/watc3.png" alt="">
+            <img src="./img/watc4.png" alt="">
+        </div>
+        <button type="button" class="btn btn-secondary slider__button text-white mx-auto d-flex mt-4">LEARN
+            MORE</button>
+    </main>
+
+
+    <footer class="bg-dark footer mt-5">
+        <div class="container d-flex justify-content-evenly flex-wrap align-items-center">
+            <div>
+                <img class="mt-3" src="./img/logo2.svg" alt="">
+            </div>
+            <div class="mt-5">
+            <h6 class="text-white footer__title">Subscribe to Newslatter</h6>
+            <div class="d-flex mx-auto flex-wrap header__input">
+                <div class="input d-flex">
+                    <input type="text" class="form-control border-0 input mt-lg-4 mt-3 footer__input"
+                        placeholder="" aria-label="What are you looking for?">
+                </div>
+                <button type="button" class="btn btn-secondary button__header mt-lg-4 mt-5">SING UP</button>
+            </div>
+            <ul class="d-flex mt-4 justify-content-center">
+                <li><a href="#" class="footer__list text-white me-3">News</a></li>
+                <li><a href="#" class="footer__list text-white me-3">Help</a></li>
+                <li><a href="#" class="footer__list text-white">Contat</a></li>
+            </ul>
+            </div>
+            <div>
+                <img src="./img/telegram.png" alt="">
+                <img class="mx-1" src="./img/facebook.png" alt="">
+                <img src="./img/instagram.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="./script/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
